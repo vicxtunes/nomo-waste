@@ -1,0 +1,30 @@
+# dependencies
+/node_modules
+
+# next
+/.next
+/out
+next-env.d.ts
+*.tsbuildinfo
+
+# capacitor native projects — regenerated with `npx cap add ios|android`
+/ios
+/android
+
+# env
+.env.local
+.env*.local
+
+# supabase local
+/supabase/.branches
+/supabase/.temp
+
+# misc
+*.log
+.DS_Store
+
+# built artifacts
+*.apk
+*.aab
+
+# android SDK / gradle (not in repo)
